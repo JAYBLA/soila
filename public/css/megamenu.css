@@ -254,6 +254,7 @@ ul.menu-col li a:hover, ul.menu-col li a:focus {
     }
 
     .menubar--squeeze .menubar-inner {
+        color: var(--blue-color) !important;
         top: 50%;
         display: block;
         margin-top: -2px;

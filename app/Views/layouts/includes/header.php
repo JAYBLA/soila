@@ -2,19 +2,23 @@
         <header id="masthead" class="header ttm-header-style-01">
             <!-- topbar -->
             <div class="top_bar ttm-bgcolor-darkgrey clearfix">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="top_bar_contact_item">
-                                        <div class="top_bar_icon"><i class="flaticon flaticon-placeholder text-light"></i></div>
-                                        <div class="top_bar_content">81 Bank Road Saginaw, MI 48601</div>
+                                        <div class="top_bar_icon"><i
+                                                class="flaticon flaticon-placeholder text-light"></i></div>
+                                        <div class="top_bar_content">CCM Mkoa Building-Morogoro,
+                                            Block B, Second Floor
+                                        </div>
                                     </div>
                                     <div class="top_bar_contact_item">
-                                        <div class="top_bar_icon"><i class="flaticon flaticon-envelope text-light"></i></div>
+                                        <div class="top_bar_icon"><i class="flaticon flaticon-envelope text-light"></i>
+                                        </div>
                                         <div class="top_bar_content"> <a
-                                                href="mailto:info@example.com">info@example.com</a></div>
+                                                href="mailto:info@example.com">info@soila.co.tz</a></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -47,8 +51,8 @@
                                         </div>
                                         <div class="top_bar_contact_item ttm-highlight-right">
                                             <div class="top_bar_icon"><i class="flaticon-phone-call"></i></div>
-                                            <div class="top_bar_content"> Talk To Expert:
-                                                <strong><a href="tel:143456789">0 (143) 456 7899</a></strong>
+                                            <div class="top_bar_content"> Direct Call:
+                                                <strong><a href="tel:+255682655515">+255 (0) 682 655 515</a></strong>
                                             </div>
                                         </div>
                                     </div>
@@ -70,7 +74,7 @@
                                     class="site-navigation d-flex flex-row  justify-content-between align-items-center">
                                     <!-- site-branding -->
                                     <div class="site-branding ">
-                                        <a class="home-link" href="index.html" title="Buildtab" rel="home">
+                                        <a class="home-link" href="/" title="Buildtab" rel="home">
                                             <img id="logo-img" height="45" width="175" class="img-fluid auto_size"
                                                 src="images/logo-img.svg" alt="logo-img">
                                         </a>
@@ -80,7 +84,7 @@
                                             <span class="menubar-box">
                                                 <span class="menubar-inner"></span>
                                             </span>
-      </a>
+                                        </a>
                                         <!-- menu -->
                                         <nav class="main-menu" id="site-desktop-menu">
                                             <ul class="menu">

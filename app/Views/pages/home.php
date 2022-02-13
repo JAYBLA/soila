@@ -22,7 +22,7 @@
                             data-xy="x:l,l,c,c;xo:80px,80px,0,0;y:m;yo:-53px,-53px,-52px,-42px;"
                             data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
                             data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;"
-                            style="z-index:9;font-family:'inter';">We Build Your Dream
+                            style="z-index:9;font-family:'inter';">Invest on Agriculture 
                         </rs-layer>
                         <!--
 
@@ -31,8 +31,8 @@
                             data-xy="x:l,l,c,c;xo:80px,80px,0,0;y:m;yo:30px,30px,14px,6px;"
                             data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
                             data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
-                            style="z-index:10;font-family:'inter';">With <span
-                                class="ttm-textcolor-skincolor slide-text">Passion</span>
+                            style="z-index:10;font-family:'inter';">With<span
+                                class="ttm-textcolor-skincolor slide-text"> SOILA PLC</span>
                         </rs-layer>
                         <!--
 
@@ -64,7 +64,7 @@
                             data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;" data-frame_0="y:100%;"
                             data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;"
                             data-frame_hover="c:#0c2d62;bgc:#ffa800;boc:#ffa800;bos:solid;bow:2px,2px,2px,2px;"
-                            style="z-index:11;font-family:'inter';">All Projects
+                            style="z-index:11;font-family:'inter';">Get Started
                             <i class="fa fa-long-arrow-right"></i>
                         </a>
                         <!--

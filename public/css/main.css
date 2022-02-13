@@ -2136,10 +2136,10 @@ ul.social-icons {
    rev slider
 ------------------------*/
 .slide-text {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: 'inter', serif;
   font-weight: 800;
   display: inline-block;
+  margin-left: 10px !important;
 }
 
 /*  ===============================================

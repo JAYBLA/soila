@@ -1,29 +1,3 @@
-/** ==========================================================================================
-
-  Project :   Buildtab - Responsive Multi-purpose HTML5 Template
-  Author :    Themetechmount
-
-========================================================================================== */
-
-/** ===============
-
- .. Preloader
- .. header_search
- .. Fixed-header
- .. Menu
- .. Number rotator
- .. Skillbar
- .. Tab
- .. Accordion
- .. Isotope
- .. Prettyphoto
- .. Slick_slider
- .. Back to top 
- .. margin padding
-
- =============== */
-
-
  jQuery(function($) {
 
     "use strict";
