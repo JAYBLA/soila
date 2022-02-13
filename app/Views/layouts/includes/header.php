@@ -8,11 +8,11 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="top_bar_contact_item">
-                                        <div class="top_bar_icon"><i class="flaticon flaticon-placeholder"></i></div>
+                                        <div class="top_bar_icon"><i class="flaticon flaticon-placeholder text-light"></i></div>
                                         <div class="top_bar_content">81 Bank Road Saginaw, MI 48601</div>
                                     </div>
                                     <div class="top_bar_contact_item">
-                                        <div class="top_bar_icon"><i class="flaticon flaticon-envelope"></i></div>
+                                        <div class="top_bar_icon"><i class="flaticon flaticon-envelope text-light"></i></div>
                                         <div class="top_bar_content"> <a
                                                 href="mailto:info@example.com">info@example.com</a></div>
                                     </div>
@@ -84,37 +84,11 @@
                                         <!-- menu -->
                                         <nav class="main-menu" id="site-desktop-menu">
                                             <ul class="menu">
-                                                <li class="mega-menu-item active">
+                                                <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Home</a>
-                                                    <ul class="mega-submenu">
-                                                        <li class="active"><a href="index.html">Homepage 1</a></li>
-                                                        <li><a href="home-2.html">Homepage 2</a></li>
-                                                        <li><a href="home-3.html">Homepage 3</a></li>
-                                                        <li class="mega-menu-item active">
-                                                            <a href="#" class="mega-menu-link">Header Styles</a>
-                                                            <ul class="mega-submenu">
-                                                                <li class="active"><a href="index.html">Header
-                                                                        Classic</a></li>
-                                                                <li><a href="header-infostack.html">Header Infostack</a>
-                                                                </li>
-                                                                <li><a href="header-overlay.html">Header Overlay</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Pages</a>
-                                                    <ul class="mega-submenu">
-                                                        <li><a href="about-us.html">About Us 1</a></li>
-                                                        <li><a href="about-us-2.html">About Us 2</a></li>
-                                                        <li><a href="services-1.html">Services 1</a></li>
-                                                        <li><a href="services-2.html">Services 2</a></li>
-                                                        <li><a href="our-team.html">Our Team</a></li>
-                                                        <li><a href="team-details.html">Team Details</a></li>
-                                                        <li><a href="faq.html">FAQ</a></li>
-                                                        <li><a href="error.html">Error Page</a></li>
-                                                    </ul>
+                                                    <a href="#" class="mega-menu-link">About Us</a>
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link">Services</a>

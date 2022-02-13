@@ -18,16 +18,6 @@
                             data-lazyload="revolution/assets/mainslider-bg1.jpg" data-no-retina>
                         <!--
                             -->
-                        <rs-layer id="slider-1-slide-1-layer-0" data-type="text" data-color="#e5e5e5" data-rsp_ch="on"
-                            data-xy="x:l,l,c,c;xo:80px,80px,0,0;y:m;yo:-118px,-118px,-109px,-85px;"
-                            data-text="w:normal;s:16,16,16,15;l:25,25,20,12;ls:1px,1px,0px,0px;fw:500;"
-                            data-frame_0="x:-50,-50,-31,-19;" data-frame_1="st:100;sp:500;sR:100;"
-                            data-frame_999="o:0;st:w;sR:8400;"
-                            style="z-index:8;font-family:'Poppins';text-transform:uppercase;">A Fully Integrated Design
-                        </rs-layer>
-                        <!--
-
-                            -->
                         <rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-rsp_ch="on"
                             data-xy="x:l,l,c,c;xo:80px,80px,0,0;y:m;yo:-53px,-53px,-52px,-42px;"
                             data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
@@ -52,7 +42,7 @@
                             data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
                             data-dim="w:7px,7px,3px,1px;h:260px,260px,162px,99px;" data-vbility="t,t,f,f"
                             data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
-                            data-frame_999="o:0;st:w;sR:8490;" style="z-index:13;background-color:#ffb200;">
+                            data-frame_999="o:0;st:w;sR:8490;" style="z-index:13;background-color:#00a651;">
                         </rs-layer>
                         <!--
 
@@ -62,7 +52,7 @@
                             data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
                             data-dim="w:150px,150px,93px,57px;h:7px,7px,3px,1px;" data-vbility="t,t,f,f"
                             data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
-                            data-frame_999="o:0;st:w;sR:8490;" style="z-index:12;background-color:#ffb200;">
+                            data-frame_999="o:0;st:w;sR:8490;" style="z-index:12;background-color:#00a651;">
                         </rs-layer>
                         <!--
 
@@ -78,19 +68,6 @@
                             <i class="fa fa-long-arrow-right"></i>
                         </a>
                         <!--
-
-                            -->
-                        <rs-layer id="slider-1-slide-1-layer-13" data-type="image" data-rsp_ch="on"
-                            data-xy="x:c;xo:-400px,-400px,-584px,-360px;y:m;yo:-186px,-186px,-164px,-101px;"
-                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
-                            data-dim="w:42px,42px,25px,15px;h:53px,53px,32px,19px;" data-vbility="t,t,f,f"
-                            data-frame_0="rY:360deg;" data-frame_1="e:back.out;st:150;sp:500;sR:150;"
-                            data-frame_999="o:0;st:w;sR:8350;" style="z-index:14;"><img
-                                src="revolution/assets/dummy.png" class="tp-rs-img rs-lazyload" width="43" height="54"
-                                data-lazyload="revolution/assets/slider-logo.svg" alt="rev-img" data-no-retina>
-                        </rs-layer>
-                        <!--
-
                             -->
                         <rs-layer id="slider-1-slide-1-layer-14" data-type="text" data-rsp_ch="on"
                             data-xy="x:c;xo:-336px,-336px,-513px,-316px;y:m;yo:-183px,-183px,-176px,-108px;"
@@ -107,7 +84,7 @@
                             data-dim="w:8px,8px,4px,2px;h:8px,8px,4px,2px;" data-vbility="t,t,f,f"
                             data-border="bor:50px,50px,50px,50px;" data-frame_0="sX:0.9;sY:0.9;"
                             data-frame_1="st:270;sp:400;" data-frame_999="o:0;st:w;sR:8430;"
-                            style="z-index:16;background-color:#ffa800;">
+                            style="z-index:16;background-color:#00a651;">
                         </rs-layer>
                         <!--
 
@@ -118,7 +95,7 @@
                             data-dim="w:8px,8px,4px,2px;h:8px,8px,4px,2px;" data-vbility="t,t,f,f"
                             data-border="bor:50px,50px,50px,50px;" data-frame_0="sX:0.9;sY:0.9;"
                             data-frame_1="st:430;sp:400;" data-frame_999="o:0;st:w;sR:8270;"
-                            style="z-index:18;background-color:#ffa800;">
+                            style="z-index:18;background-color:#00a651;">
                         </rs-layer>
                         <!--
 
@@ -140,103 +117,7 @@
                         </rs-layer>
                         <!--
 -->
-                    </rs-slide>
-                    <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide"
-                        data-thumb="assets/mainslider-bg2-50x100.jpg" data-filter="e:late;b:6;"
-                        data-in="o:0;sx:1.05;sy:1.05;e:power1.in;">
-                        <img src="revolution/assets/dummy.png" title="mainslider-bg2" width="1920" height="810"
-                            class="rev-slidebg tp-rs-img rs-lazyload"
-                            data-lazyload="revolution/assets/mainslider-bg2.jpg" data-no-retina>
-                        <!--
-                            -->
-                        <rs-layer id="slider-1-slide-2-layer-0" data-type="text" data-rsp_ch="on"
-                            data-xy="x:r,r,c,c;xo:75px,75px,0,493px;y:m;yo:-119px,-119px,-137px,-23px;"
-                            data-text="w:normal;s:16,16,16,15;l:25,25,20,12;ls:1px,1px,0px,0px;fw:500;"
-                            data-vbility="t,t,t,f" data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="st:100;sp:500;sR:100;" data-frame_999="o:0;st:w;sR:8400;"
-                            style="z-index:8;font-family:'Poppins';text-transform:uppercase;">Your dream is our
-                            profession.
-                        </rs-layer>
-                        <!--
-
-                            -->
-                        <rs-layer id="slider-1-slide-2-layer-1" data-type="text" data-rsp_ch="on"
-                            data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:-55px,-55px,-80px,-90px;"
-                            data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="st:180;sp:800;sR:180;" data-frame_999="o:0;st:w;sR:8020;"
-                            style="z-index:9;font-family:'inter';">Contact Use For
-                        </rs-layer>
-                        <!--
-
-                            -->
-                        <rs-layer id="slider-1-slide-2-layer-2" data-type="text" data-rsp_ch="on"
-                            data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:28px,28px,-14px,-41px;"
-                            data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
-                            data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
-                            style="z-index:10;font-family:'inter';"><span
-                                class="ttm-textcolor-skincolor slide-text">Commercial </span> Buildings
-                        </rs-layer>
-                        <!--
-
-                            -->
-                        <rs-layer id="slider-1-slide-2-layer-3" data-type="shape" data-rsp_ch="on"
-                            data-xy="x:r;xo:30px,30px,-238px,-146px;y:m;yo:-54px,-54px,33px,20px;"
-                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
-                            data-dim="w:7px,7px,3px,1px;h:260px,260px,162px,99px;" data-vbility="t,t,f,f"
-                            data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
-                            data-frame_999="o:0;st:w;sR:8490;" style="z-index:14;background-color:#ffb200;">
-                        </rs-layer>
-                        <!--
-
-                            -->
-                        <rs-layer id="slider-1-slide-2-layer-4" data-type="shape" data-rsp_ch="on"
-                            data-xy="x:r;xo:30px,30px,-281px,-173px;y:m;yo:-183px,-183px,-90px,-55px;"
-                            data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
-                            data-dim="w:150px,150px,93px,57px;h:7px,7px,3px,1px;" data-vbility="t,t,f,f"
-                            data-frame_0="x:50,50,31,19;" data-frame_1="st:110;sp:400;sR:110;"
-                            data-frame_999="o:0;st:w;sR:8490;" style="z-index:13;background-color:#ffb200;">
-                        </rs-layer>
-                        <!--
-
-                            --><a id="slider-1-slide-2-layer-5" class="rs-layer ttm-btn" href="project-style-01.html"
-                            target="_self" rel="nofollow" data-type="text" data-rsp_ch="on"
-                            data-xy="x:r,r,c,c;xo:260px,260px,0,0;y:m;yo:131px,131px,61px,24px;"
-                            data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;"
-                            data-padding="t:13,13,12,12;r:30,30,30,25;b:13,13,12,12;l:30,30,30,25;"
-                            data-border="bos:solid;boc:#ffffff;bow:2px,2px,2px,2px;" data-frame_0="y:100%;"
-                            data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;"
-                            data-frame_hover="c:#0c2d62;bgc:#ffa800;boc:#ffa800;bos:solid;bow:2px,2px,2px,2px;"
-                            style="z-index:12;font-family:'inter';">All Projects
-                            <i class="fa fa-long-arrow-right"></i>
-                        </a>
-                        <!--
-
-                            --><a id="slider-1-slide-2-layer-6" class="rs-layer ttm-btn" href="contact-us.html"
-                            target="_self" rel="nofollow" data-type="text" data-color="#0c2d62" data-rsp_ch="on"
-                            data-xy="x:r,r,c,c;xo:75px,75px,0,0;y:m;yo:131px,131px,122px,80px;"
-                            data-text="w:normal;s:14,14,14,13;l:20,20,14,13;fw:700;"
-                            data-padding="t:13,13,12,12;r:25,25,30,25;b:13,13,12,12;l:30,30,30,25;"
-                            data-border="bos:solid;boc:#ffa800;bow:2px,2px,2px,2px;" data-frame_0="y:100%;"
-                            data-frame_1="e:power4.inOut;st:260;sp:500;sR:260;" data-frame_999="o:0;st:w;sR:8240;"
-                            data-frame_hover="c:#fff;bgc:#0c2d62;boc:#0c2d62;bos:solid;bow:2px,2px,2px,2px;"
-                            style="z-index:11;background-color:#ffa800;font-family:'inter';">Contact Us <i
-                                class="fa fa-long-arrow-right"></i>
-                        </a>
-                        <!--
-
-                            --><a id="slider-1-slide-2-layer-28" class="rs-layer ttm_prettyphoto"
-                            href="https://www.youtube.com/watch?v=7e90gBu4pas" target="_self" rel="nofollow"
-                            data-type="text" data-color="#0c2d62" data-rsp_ch="on"
-                            data-xy="x:c;xo:394px,394px,575px,354px;y:m;yo:-184px,-184px,-61px,-37px;"
-                            data-text="w:normal;s:25,25,15,9;l:55,55,34,20;a:center;"
-                            data-dim="w:55px,55px,34px,20px;h:55px,55px,34px,20px;" data-vbility="t,t,f,f"
-                            data-frame_0="rY:360deg;" data-frame_1="e:back.out;st:150;sp:500;sR:150;"
-                            data-frame_999="o:0;st:w;sR:8350;" data-frame_hover="c:#fff;bgc:#ffa800;"
-                            style="z-index:20;background-color:#ffa800;font-family:'Roboto';"><i class="fa fa-play"></i>
-                        </a>
-                        <!--
--->
-                    </rs-slide>
+                    </rs-slide>                    
                 </rs-slides>
             </rs-module>
         </rs-module-wrap>
@@ -570,39 +451,6 @@
                 </div>
             </section>
             <!--service-section-end-->
-            <!-- image-section-->
-            <section class="ttm-row image-section ttm-bgimage-yes bg-img3 ttm-bg ttm-bgcolor-dark clearfix">
-                <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <!-- section title -->
-                            <div class="section-title style3 ">
-                                <h4 class="title border-rad_5">We’re Here to Help You</h4>
-                                <h2 class="title">We Offer The Most Complete <br> House <span>Renovating </span>
-                                    Services.</h2>
-                                <div class="title-desc">
-                                    <p>Constructor explains how you can enjoy high end flooring trends like textured
-                                        wood and with new <br> laminate flooring. As the general contractor.</p>
-                                </div>
-                            </div><!-- section title end -->
-                            <div
-                                class="ttm-play-icon-animation ttm-play-icon-animation-skincolor position-relative d-flex style2">
-                                <a href="https://youtu.be/7e90gBu4pas" target="_self" class="ttm_prettyphoto">
-                                    <div
-                                        class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-skincolor ttm-icon_element-size-sm ttm-icon_element-style-rounded">
-                                        <i class="fa fa-play ttm-textcolor-skincolor"></i>
-                                    </div>
-                                </a>
-                                <div class="ttm-play-icon-title">
-                                    <h3 class="ttm-textcolor-white"> How It Works! </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- image-section-end-->
             <!--Blog-section-->
             <section class="ttm-row blog-section">
                 <div class="container">

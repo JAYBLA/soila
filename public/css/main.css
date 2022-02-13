@@ -1,60 +1,3 @@
-/**
-  * Name: Buildtab
-  * Version: 1.0
-  * Author: ThemetechMount
-  * Author URI: http://www.themetechmount.com
-*/
-
-/**
-
-  
-
-  1. General
-     -fonts
-     -css
-     - Variables
-     -Input Textarea
-     - Extra-outer
-
-  2. Spacing
-
-  3. Color
-     - Skin-color, Skin-bg-color, Skin-border-color
-     - darkGrey-color, darkGrey-bg-color
-     - white-color, white-bg-color, white-border-color
-     - Grey-color, Grey-bg-color, grey-border-color
-
-  4. Pre-loader
-
-  5. SocialIcon / TooltipTop
-
-  6. Slick_dots/arrows
-
-  7. TopBar
-
-  8. Header
-     - SiteBrand(logo)
-     - SiteNavigation(Menu)
-     - side-menu
-
-  9. Footer
-     - FirstFooter
-     - SecondFooter
- 
-  10. GoTop BUtton
-  
-  11. Page-Title-Row
-
-  12. Inner-Pages
-      - single-pages-content
-      - Classic_Blog
-      - Single_Blog
-      - Contact_page
-      - Error_page
-      - Map
-
-**/
-
 /* ===============================================
    General
 ------------------------*/
@@ -72,8 +15,9 @@
 
 /** Variables **/
 :root {
-  --skin-color: #ffa800;
-  --dark-grey-color: #0c2d62;
+  --green-color: #00a651;
+  --blue-color: #1c75bc;
+  --dark-blue-color: #053e6d;
   --dark-color: #000000;
   --body-fonts-color: #8592a6;
   --grey-color: #f1f4f9;
@@ -83,19 +27,19 @@
 }
 
 ::-moz-selection {
-  background: var(--skin-color);
+  background: var(--green-color);
   color: var(--white-color);
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: var(--skin-color);
+  background: var(--green-color);
   color: var(--white-color);
   text-shadow: none;
 }
 
 ::selection {
-  background: var(--skin-color);
+  background: var(--green-color);
   color: var(--white-color);
   text-shadow: none;
 }
@@ -113,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--title-fonts);
   margin-bottom: 15px;
   font-weight: 700;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
   font-style: normal;
   text-transform: capitalize;
   -ms-word-wrap: break-word;
@@ -171,7 +115,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 a, a:hover, a:focus, a:active {
   text-decoration: none;
   outline: none;
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 a, button, input {
@@ -214,7 +158,7 @@ textarea, input[type="text"], input[type="password"], input[type="datetime"], in
   border-radius: 0;
   vertical-align: middle;
   width: 100%;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
   padding: 13px 15px 14px;
   border-radius: 0;
   font-weight: 400;
@@ -251,7 +195,7 @@ button:focus {
 }
 
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="tel"]:focus, input[type="color"]:focus {
-  border: 1px solid var(--skin-color);
+  border: 1px solid var(--green-color);
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -webkit-appearance: searchfield;
@@ -1534,11 +1478,11 @@ body .page.sidebar-true .site-main {
 
 /** text-color **/
 .ttm-textcolor-skincolor {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-textcolor-darkgreycolor {
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 .ttm-textcolor-greycolor {
@@ -1718,7 +1662,7 @@ label {
 .ttm_single_image_text p {
   border: none;
   background-color: transparent;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
   font-size: 18px;
   line-height: 28px;
   padding: 20px 0px 0px 110px;
@@ -1740,7 +1684,7 @@ label {
   width: 30px;
   height: 22px;
   content: '';
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   display: block;
 }
 
@@ -1776,7 +1720,7 @@ label {
   font-weight: 400;
   font-size: 19px;
   line-height: 31px;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
   -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 9%);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 9%);
@@ -1833,37 +1777,43 @@ label {
 /** 1.Skin-color **/
 .ttm-textcolor-skincolor, .ttm-textcolor-skincolor h1, .ttm-textcolor-skincolor h2, .ttm-textcolor-skincolor h3, .ttm-textcolor-skincolor h4, .ttm-textcolor-skincolor h5, .ttm-textcolor-skincolor h6, .ttm-textcolor-skincolor a, .ttm-textcolor-skincolor i, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-skincolor a, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-skincolor i, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-skincolor a, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-skincolor i, a.ttm-textcolor-skincolor, i.ttm-textcolor-skincolor, :not(.ttm-bgcolor-darkgrey) a.ttm-textcolor-skincolor, :not(.ttm-bgcolor-darkgrey) i.ttm-textcolor-skincolor, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-skincolor, .ttm-bgcolor-darkgrey .ttm-textcolor-skincolor h1, .ttm-bgcolor-darkgrey .ttm-textcolor-skincolor h2, .ttm-bgcolor-darkgrey .ttm-textcolor-skincolor h3, .ttm-bgcolor-darkgrey .ttm-textcolor-skincolor h4, .ttm-bgcolor-darkgrey .ttm-textcolor-skincolor h5, .ttm-bgcolor-darkgrey .ttm-textcolor-skincolor h6, .ttm-bgcolor-darkgrey a:hover, .ttm-textcolor-white a:hover, .ttm-bgcolor-darkgrey a:hover i, .ttm-btn-color-skincolor, .ttm-bgcolor-darkgrey .ttm-btn-color-skincolor, .ttm-bgcolor-darkgrey .ttm-btn-color-skincolor i, .ttm-bgcolor-grey .ttm-btn-color-skincolor, .ttm-list-icon-color-skincolor li i, .ttm-icon_element-border.ttm-icon_element-color-skincolor, .ttm-icon_element-border.ttm-icon_element-color-grey, .ttm-btn-style-border.ttm-btn-color-skincolor, .ttm-icon_element-fill.ttm-icon_element-color-white, .ttm-icon_element-color-skincolor, .ttm-icon_element-color-skincolor:not(.ttm-icon_element-fill) i, .ttm-bgcolor-darkgrey 
 .ttm-icon_element-color-skincolor i, .top_bar .top_bar_contact_item .top_bar_icon i, .ttm-bgcolor-darkgrey a:hover, .ttm-header-style-02 .header_btn i, .ttm-header-style-03 #site-header-menu .site-navigation ul.menu > li.active >a, .widget ul#menu-footer-quick-links li a:before, .breadcrumb-wrapper span, .widget .call_detail h3, .widget.offer_widget h2, .widget.offer_widget h3, .featured-imagebox-post.style2 .featured-content .post-meta span i, .slick-active.slick-current .testimonials.ttm-testimonial-box-view-style2 .testimonial-content blockquote:before, .ttm-highlight-quote blockquote:before, .ttm-page-title-row .breadcrumb-wrapper i, .featured-imagebox-post .ttm-btn i, h3.title span, .featured-imagebox-post .featured-content .post-meta span i, .featured-imagebox-post.style2 .featured-content h3:hover a, .featured-imagebox-services.style1:hover .featured-content .ttm-details-link a, .ttm-blog-classic .post-meta .ttm-meta-line i, .ttm-blog-single .post-meta .ttm-meta-line i, .ttm-blogbox-footer-readmore .ttm-btn i, .ttm-tags-links-title i, .footer .widget ul.ttm-recent-post-list>li> .post-detail a:hover {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 /** Skin-bg-color **/
-.ttm-bgcolor-skincolor, .ttm-bgcolor-skincolor > .ttm-bg-layer, .ttm-bgcolor-skincolor > .ttm-bg-layer > .ttm-col-wrapper-bg-layer-inner, .ttm-icon_element-fill.ttm-icon_element-color-skincolor, .ttm-btn-style-fill.ttm-btn-color-skincolor, .ttm-btn.ttm-btn-style-border.ttm-btn-color-skincolor:not(.btn-inline):hover:after, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark:not(.btn-inline):hover:after, .ttm-btn.ttm-btn-style-border.ttm-btn-color-skincolor:not(.btn-inline):hover:before, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark:not(.btn-inline):hover:before, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover:before, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover:after, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:not(.btn-inline):hover:after, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:not(.btn-inline):hover:before, .ttm-bgcolor-grey .tooltip:after, .ttm-bgcolor-grey [data-tooltip]:after, .ttm-bgcolor-darkgrey .tooltip:after, .ttm-bgcolor-darkgrey [data-tooltip]:after, .ttm-textcolor-skincolor .tooltip:after, .ttm-textcolor-skincolor [data-tooltip]:after, .slick_slider.slick-dots-style1 .slick-dots li.slick-active button, .slick_slider.slick-dots-style2 .slick-dots li.slick-active button, .slick_slider.slick-arrows-style3 .slick-arrow:hover, .slick_slider.slick-arrows-style4 .slick-arrow:hover, .slick_slider.slick-arrows-style1 .slick-prev:hover, .slick_slider.slick-arrows-style1 .slick-next:hover, .slide .slide__content--headings > h3:before, .slide .slide__content--headings > h3:after, .banner_slider_wrapper .slider-social-links-wrapper li a:hover, .banner_slider_3 .slide .slide__content--headings .highlight_text::after, nav.main-menu ul.menu li ul.mega-submenu li a:before, .ttm-header-style-01 .social-icons li a:hover, .ttm-header-style-03 .social-icons li a:hover, .ttm-play-icon-btn .ttm-play-icon-animation.ttm-play-icon-animation-skincolor:before, .ttm-play-icon-btn .ttm-play-icon-animation.ttm-play-icon-animation-skincolor:after, .featured-imagebox-procedure .process-num, .featured-imagebox-procedure .process-num:after, .featured-imagebox-portfolio.style2 .ttm-media-link a, .featured-imagebox-post.style2 .ttm-box-post-date, .featured-icon-box.style4:hover .featured-icon:before, .featured-icon-box.style5:hover i.ttm-num, .ttm-progress-bar .progress-bar-percent, .progress-bar-color-bar_white.progress-bar, .ttm-bgcolor-darkgrey .ttm-progress-bar.style1 .progress-bar.progress-bar-color-bar_skincolor, .footer .widget .widget-title:before, .footer .widget .widget-title:after, .testimonials.ttm-testimonial-box-view-style1 .testimonial-avatar:before, .featured-imagebox-post.style1 .ttm-box-post-date, .featured-imagebox-team.style1:hover .ttm-media-link, .featured-imagebox-portfolio.style1 .ttm-media-link a, .breadcrumb-wrapper span:first-child:after, .ttm-team-member-single-content .ttm-social-links-wrapper ul li a:hover, .sidebar .widget-area .widget:after, .ttm-blog-classic .ttm-box-post-date, .ttm-blog-single .ttm-box-post-date, .ttm-social-share-wrapper ul li a:hover, .widget .tagcloud a:hover, .pagination-block .page-numbers:hover, .pagination-block .page-numbers.current, #totop.top-visible {
-  background-color: var(--skin-color);
+.ttm-bgcolor-skincolor, .ttm-bgcolor-skincolor > .ttm-bg-layer, .ttm-bgcolor-skincolor > .ttm-bg-layer > .ttm-col-wrapper-bg-layer-inner, .ttm-icon_element-fill.ttm-icon_element-color-skincolor, .ttm-btn-style-fill.ttm-btn-color-skincolor, .ttm-btn.ttm-btn-style-border.ttm-btn-color-skincolor:not(.btn-inline):hover:after, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark:not(.btn-inline):hover:after, .ttm-btn.ttm-btn-style-border.ttm-btn-color-skincolor:not(.btn-inline):hover:before, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark:not(.btn-inline):hover:before, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover:before, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover:after, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:not(.btn-inline):hover:after, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:not(.btn-inline):hover:before, .ttm-bgcolor-grey .tooltip:after, .ttm-bgcolor-grey [data-tooltip]:after, .ttm-bgcolor-darkgrey .tooltip:after, .ttm-bgcolor-darkgrey [data-tooltip]:after, .ttm-textcolor-skincolor .tooltip:after, .ttm-textcolor-skincolor [data-tooltip]:after, .slick_slider.slick-dots-style1 .slick-dots li.slick-active button, .slick_slider.slick-dots-style2 .slick-dots li.slick-active button, .slick_slider.slick-arrows-style3 .slick-arrow:hover, .slick_slider.slick-arrows-style4 .slick-arrow:hover, .slick_slider.slick-arrows-style1 .slick-prev:hover, .slick_slider.slick-arrows-style1 .slick-next:hover, .slide .slide__content--headings > h3:before, .slide .slide__content--headings > h3:after, .banner_slider_wrapper .slider-social-links-wrapper li a:hover, .banner_slider_3 .slide .slide__content--headings .highlight_text::after, nav.main-menu ul.menu li ul.mega-submenu li a:before, .ttm-header-style-01 .social-icons li a:hover, .ttm-header-style-03 .social-icons li a:hover, .ttm-play-icon-btn .ttm-play-icon-animation.ttm-play-icon-animation-skincolor:before, .ttm-play-icon-btn .ttm-play-icon-animation.ttm-play-icon-animation-skincolor:after, .featured-imagebox-procedure .process-num, .featured-imagebox-procedure .process-num:after, .featured-imagebox-portfolio.style2 .ttm-media-link a, .featured-imagebox-post.style2 .ttm-box-post-date, .featured-icon-box.style4:hover .featured-icon:before, .featured-icon-box.style5:hover i.ttm-num, .ttm-progress-bar .progress-bar-percent, .progress-bar-color-bar_white.progress-bar, .ttm-bgcolor-darkgrey .ttm-progress-bar.style1 .progress-bar.progress-bar-color-bar_skincolor, .footer .widget .widget-title:before, .footer .widget .widget-title:after, .testimonials.ttm-testimonial-box-view-style1 .testimonial-avatar:before, .featured-imagebox-post.style1 .ttm-box-post-date, .featured-imagebox-team.style1:hover .ttm-media-link, .featured-imagebox-portfolio.style1 .ttm-media-link a, .breadcrumb-wrapper span:first-child:after, .ttm-team-member-single-content .ttm-social-links-wrapper ul li a:hover, .sidebar .widget-area .widget:after, .ttm-blog-classic .ttm-box-post-date, .ttm-blog-single .ttm-box-post-date, .ttm-social-share-wrapper ul li a:hover, .widget .tagcloud a:hover, .pagination-block .page-numbers:hover, .pagination-block .page-numbers.current{
+  background-color: var(--green-color);
+}
+
+#totop.top-visible {
+  background-color: var(--green-color);
+  border: 2px solid var(--white-color);
+  border-radius: 6px;
 }
 
 /** Skin-border-color **/
 .ttm-btn-style-fill.ttm-btn-color-skincolor, .ttm-btn-color-skincolor:hover, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark:hover, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:not(.btn-inline):hover, .ttm-icon.ttm-icon_element-border.ttm-icon_element-color-skincolor, .slick_slider.slick-arrows-style3 .slick-arrow:hover, .banner_slider_wrapper .slider-social-links-wrapper li a:hover, .ttm-page-title-row-inner .row, .social-icons.circle li>a:hover, .featured-imagebox-procedure:hover .featured-thumbnail img, .widget .tagcloud a:hover {
-  border-color: var(--skin-color);
+  border-color: var(--green-color);
 }
 
 .ttm-bgcolor-darkgrey .tooltip-top:before, .ttm-bgcolor-darkgrey .tooltip:before, .ttm-textcolor-skincolor .tooltip-top:before, .ttm-textcolor-skincolor .tooltip:before, .ttm-bgcolor-grey .tooltip-top:before, .ttm-bgcolor-grey .tooltip:before, .ttm-bgcolor-grey [data-tooltip]:before, .ttm-bgcolor-skincolor .bottom-angle, .featured-icon-box.style1:hover:before, nav.main-menu, .header_search .header_search_content {
-  border-top-color: var(--skin-color);
+  border-top-color: var(--green-color);
 }
 
 .header_search .header_search_content:before, .header_btn:before, .ttm-bgcolor-darkgrey .tooltip-bottom:before, .featured-icon-box.style1:hover, .featured-icon-box.style3::before, .featured-imagebox-team.style1 .featured-content::before {
-  border-bottom-color: var(--skin-color);
+  border-bottom-color: var(--green-color);
 }
 
 /** 2.Darkgrey-color **/
 .ttm-textcolor-darkgrey, .ttm-textcolor-darkgrey p, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-darkgrey h1, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-darkgrey h2, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-darkgrey h3, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-darkgrey h4, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-darkgrey h5, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-darkgrey h6, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-darkgrey p, :not(.ttm-bgcolor-skincolor) .ttm-textcolor-darkgrey span, .ttm-icon.ttm-icon_element-border.ttm-icon_element-color-darkgrey, .ttm-btn.ttm-btn-style-border.ttm-btn-color-dark:hover, .ttm-btn.ttm-btn-style-border.ttm-btn-color-white:hover, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-border.ttm-btn-color-white:hover, .ttm-btn-style-fill.ttm-btn-color-skincolor, .ttm-btn-style-fill.ttm-btn-color-skincolor i, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white i, .ttm-btn-style-fill.ttm-btn-color-skincolor:hover, .ttm-bgcolor-darkgrey .ttm-btn-style-fill.ttm-btn-color-skincolor:hover i, .ttm-textcolor-white .ttm-btn.ttm-btn-style-fill.ttm-btn-color-skincolor:hover, .ttm-btn-color-dark, .ttm-bgcolor-skincolor a:hover, .ttm-bgcolor-skincolor a:hover i, .ttm-btn-color-skincolor:hover, .ttm-bgcolor-skincolor .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, .ttm-bgcolor-skincolor .row > [class*='col-']:not(.ttm-bgcolor-white) 
 a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, .ttm-bgcolor-skincolor .row > [class*='col-']:not(.ttm-bgcolor-white) 
 a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, .ttm-btn-style-fill.ttm-btn-color-white, .ttm-bgcolor-skincolor .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover, .ttm-bgcolor-skincolor .ttm-btn.ttm-btn-style-border.ttm-btn-color-white:hover, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-grey:hover, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-border.ttm-btn-color-grey:hover, .ttm-btn.ttm-btn-style-border.ttm-btn-color-white:not(.btn-inline):hover, .ttm-icon_element-color-darkgrey, :not(.ttm-bgcolor-darkgrey) .ttm-textcolor-darkgrey > i, .ttm-icon_element-color-darkgrey:not(.ttm-icon_element-fill) i, .ttm-bgcolor-grey .top_bar_content, .ttm-header-style-01 .header_search .search_btn i, nav.main-menu ul.menu li > ul.mega-submenu li a:hover, .ttm-header-style-02 .social-icons li a, .ttm-header-style-02 .social-icons li a:hover, .ttm-header-style-02 .ttm-header-featured-iconbox h3, .ttm-header-style-02 .ttm-header-featured-iconbox h5, .ttm-progress-bar .progress-bar.progress-bar-color-bar_darkgrey, .ttm-progress-bar .progress-bar-title, .ttm-bgcolor-darkgrey .ttm-progress-bar.style1 .progress-bar-percent, .progress-bar-percent.ttm-textcolor-dark-grey, .featured-imagebox-portfolio.style1 .featured-title h3, .featured-imagebox-portfolio.style1 .featured-title h3 a, .ttm-tabs.ttm-tab-style-03 ul.tabs li a, .featured-imagebox-post .ttm-box-post-date .ttm-entry-date, .ttm-pf-single-content-area a.ttm-btn.ttm-btn-style-border.ttm-btn-color-darkgrey, .ttm-icon_element-fill.ttm-icon_element-color-white i, .pagination-block .page-numbers, .pagination-block .page-numbers.current {
-  color: var(--dark-grey-color);
+  color: var(--white-color);
 }
 
 /** DarkGrey-bg-color **/
 .ttm-bgcolor-darkgrey, .ttm-bgcolor-darkgrey > .ttm-bg-layer, .ttm-bgcolor-darkgrey > .ttm-bg-layer > .ttm-col-wrapper-bg-layer-inner, .ttm-bgcolor-skincolor .tooltip:after, .ttm-bgcolor-skincolor [data-tooltip]:after, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark, .ttm-btn-style-fill.ttm-btn-color-darkgrey, .tooltip:after, [data-tooltip]:after, .ttm-icon_element-fill.ttm-icon_element-color-darkgrey, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-skincolor:not(.btn-inline):hover:after, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-skincolor:not(.btn-inline):hover:before, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-grey:not(.btn-inline):hover:before, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-grey:not(.btn-inline):hover:after, .ttm-btn.ttm-btn-style-border.ttm-btn-color-grey:not(.btn-inline):hover:before, .ttm-btn.ttm-btn-style-border.ttm-btn-color-grey:not(.btn-inline):hover:after, .ttm-btn.ttm-btn-style-border.ttm-btn-color-dark:not(.btn-inline):hover:before, .ttm-btn.ttm-btn-style-border.ttm-btn-color-dark:not(.btn-inline):hover:after, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-skincolor:hover, .ttm-bgcolor-skincolor .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:not(.btn-inline):hover:before, .ttm-bgcolor-skincolor .ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:not(.btn-inline):hover:after, .ttm-toggle-title-bgcolor-darkgrey, .toggle.ttm-toggle_style_border.ttm-toggle-title-bgcolor-darkgrey .toggle-title a.active, .ttm-progress-bar .progress-bar.progress-bar-color-bar_darkgrey, .ttm-progress-bar .progress-bar-inner .progress-bar.progress-bar-color-bar_darkgrey:before, .widget.widget-nav-menu ul li a:before, .ttm-pf-single-content-area a:hover.ttm-btn.ttm-btn-style-border.ttm-btn-color-darkgrey, .ttm-btn.ttm-btn-style-border.ttm-btn-color-dark:hover, .ttm-btn-color-skincolor:hover, .ttm-toggle-title-bgcolor-white .toggle-title a.active {
-  background-color: var(--dark-grey-color);
+  background-color: var(--blue-color);
 }
 
 /**Dark-bg-color **/
@@ -1874,11 +1824,11 @@ a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white, .ttm-btn-style-fill.ttm-btn-co
 .ttm-icon.ttm-icon_element-border.ttm-icon_element-color-darkgrey, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-dark, .ttm-bgcolor-darkgrey .ttm-btn.ttm-btn-style-fill.ttm-btn-color-skincolor:hover, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-grey:hover, .ttm-btn.ttm-btn-style-fill.ttm-btn-color-skincolor:not(.btn-inline):hover, .ttm-btn.ttm-btn-style-border.ttm-btn-color-dark:hover, .ttm-bgcolor-skincolor .row > [class*='col-']:not(.ttm-bgcolor-white) 
 a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover, .ttm-bgcolor-skincolor .row > [class*='col-']:not(.ttm-bgcolor-white) 
 a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover, .tooltip-top:before, .tooltip:before, [data-tooltip]:before, .ttm-pf-single-content-area a.ttm-btn.ttm-btn-style-border.ttm-btn-color-darkgrey {
-  border-color: var(--dark-grey-color);
+  border-color: var(--blue-color);
 }
 
 .ttm-bgcolor-skincolor .tooltip-top:before, .ttm-bgcolor-skincolor .tooltip:before, .ttm-bgcolor-skincolor [data-tooltip]:before, .tooltip-top:before, .tooltip:before, [data-tooltip]:before {
-  border-top-color: var(--dark-grey-color);
+  border-top-color: var(--blue-color);
 }
 
 /** 3.White-color **/
@@ -1901,7 +1851,7 @@ a.ttm-btn.ttm-btn-style-fill.ttm-btn-color-white:hover, .ttm-btn.ttm-btn-style-f
 }
 
 .ttm-bgcolor-darkgrey .top_bar_content {
-  color: rgba(255, 255, 255, 0.60);
+  color: var(--white-color);
 }
 
 /** White-bg-color **/
@@ -2116,7 +2066,7 @@ ul.social-icons {
 }
 
 .slick_slider.slick-dots-style1 .slick-dots li.slick-active button {
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   height: 5px;
   bottom: 2px;
   left: 0;
@@ -2223,7 +2173,7 @@ ul.social-icons {
   border-radius: 50%;
   text-align: center;
   font-size: 14px;
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .top_bar_content {
@@ -2299,7 +2249,7 @@ ul.social-icons {
   content: "";
   width: 5000px;
   height: 100%;
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   right: 0px;
   left: -4px;
   top: -1px;
@@ -2308,7 +2258,7 @@ ul.social-icons {
 }
 
 .top_bar_contact_item.ttm-highlight-right .top_bar_icon i, .top_bar_contact_item.ttm-highlight-right .top_bar_content, .top_bar_contact_item.ttm-highlight-right .top_bar_content a {
-  color: var(--dark-grey-color) !important;
+  color: var(--white-color) !important;
 }
 
 .header_search .search_btn i {
@@ -2347,37 +2297,37 @@ ul.social-icons {
 }
 
 .header_btn .ttm-btn.btn-inline {
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 .header_btn .ttm-btn.btn-inline:hover {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 /**/
 .ttm-header-style-01 #site-header-menu .site-navigation ul.menu > li.active >a, .ttm-header-style-01 #site-header-menu .site-navigation ul.menu > li > a:hover {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-01 #site-header-menu .site-navigation ul.menu > li.active >a:after, .ttm-header-style-01 #site-header-menu .site-navigation ul.menu > li:hover > a:after {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-01 #site-header-menu .site-navigation nav.main-menu 
 ul.menu li.active ul.mega-submenu li.active > a {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-01 #site-header-menu .site-navigation ul.menu > li >a {
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 .ttm-header-style-01 #site-header-menu .site-navigation ul.menu  li.active > a {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-01 #site-header-menu .site-navigation ul.menu>li:hover>a {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 /**/
@@ -2426,7 +2376,7 @@ ul.menu li.active ul.mega-submenu li.active > a {
 }
 
 .ttm-header-style-02 .widget_info .widget_icon i {
-  color: var(--dark-grey-color) !important;
+  color: var(--blue-color) !important;
 }
 
 .ttm-header-style-02 .widget_info h5 {
@@ -2450,7 +2400,7 @@ ul.menu li.active ul.mega-submenu li.active > a {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;
-  color: var(--dark-grey-color) !important;
+  color: var(--blue-color) !important;
 }
 
 .ttm-header-style-02 .header_search:before {
@@ -2490,8 +2440,8 @@ ul.menu li.active ul.mega-submenu li.active > a {
   line-height: 18px;
   font-size: 10px;
   display: block;
-  background-color: var(--skin-color);
-  color: var(--dark-grey-color);
+  background-color: var(--green-color);
+  color: var(--blue-color);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -2512,24 +2462,24 @@ ul.menu li.active ul.mega-submenu li.active > a {
 }
 
 .ttm-header-style-02 #site-header-menu .site-navigation nav.main-menu ul.menu li ul.mega-submenu li a:hover {
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 .ttm-header-style-02 #site-header-menu .site-navigation nav.main-menu 
 ul.menu li.active ul.mega-submenu li.active > a {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-02 #site-header-menu .site-navigation ul.menu>li.active>a {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-02 #site-header-menu .site-navigation ul.menu>li:hover>a {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-02 #site-header-menu .site-navigation ul.menu > li.active >a:after, .ttm-header-style-02 #site-header-menu .site-navigation ul.menu > li:hover > a:after {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 /**/
@@ -2557,7 +2507,7 @@ ul.menu li.active ul.mega-submenu li.active > a {
 
 .ttm-header-style-03 .header-social-icon ul.social-icons li a:hover {
   background-color: var(--white-color) !important;
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-03 .header-social-icon ul.social-icons li a.ttm-social-facebook {
@@ -2580,7 +2530,7 @@ ul.menu li.active ul.mega-submenu li.active > a {
   content: "";
   width: 5000px;
   height: 96px;
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   right: 0px;
   left: -18px;
   top: -13px;
@@ -2607,19 +2557,19 @@ ul.menu li.active ul.mega-submenu li.active > a {
 }
 
 .ttm-header-style-03 #site-header-menu .site-navigation ul.menu > li.active >a, .ttm-header-style-03 #site-header-menu .site-navigation ul.menu > li > a:hover {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-03 #site-header-menu .site-navigation ul.menu  li.active > a {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-03 #site-header-menu .site-navigation ul.menu>li:hover>a {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-header-style-03 #site-header-menu .site-navigation ul.menu > li.active >a:after, .ttm-header-style-03 #site-header-menu .site-navigation ul.menu > li:hover > a:after {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 /*  ===============================================
@@ -2696,13 +2646,13 @@ ul.menu li.active ul.mega-submenu li.active > a {
   text-align: center;
   display: block;
   line-height: 37px;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
   float: left;
   border-top-left-radius: 0;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 0;
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
 }
 
 .header_search .header_search_content {
@@ -2710,7 +2660,7 @@ ul.menu li.active ul.mega-submenu li.active > a {
   right: 50px;
   width: 400px;
   background: #ffffff;
-  border-right: 3px solid var(--skin-color);
+  border-right: 3px solid var(--green-color);
   opacity: 0;
   top: -25px;
   -webkit-transition: all ease .3s;
@@ -2733,7 +2683,7 @@ ul.menu li.active ul.mega-submenu li.active > a {
   text-align: center;
   width: 0;
   height: 0;
-  border-left: 10px solid var(--skin-color);
+  border-left: 10px solid var(--green-color);
   border-bottom: 10px solid transparent;
   border-top: 10px solid transparent;
   content: " ";
@@ -2817,17 +2767,17 @@ nav.main-menu ul {
   width: 35px;
   height: 35px;
   line-height: 33px;
-  border: 2px solid rgba(255, 255, 255, 0.48);
+  border: 2px solid var(--white-color);
   text-align: center;
   display: block;
   margin: 0 3px;
   background-color: transparent;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.48);
+  color:var(--white-color);
 }
 
 .footer .social-icons li a i {
-  color: rgba(255, 255, 255, 0.48);
+  color: var(--white-color);
 }
 
 .footer .widget .widget-title {
@@ -2860,12 +2810,12 @@ nav.main-menu ul {
 .first-footer .featured-icon-box.icon-align-before-content .featured-title h3 {
   font-size: 25px;
   margin-bottom: 0;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
   font-weight: 700;
 }
 
 .first-footer .featured-icon-box.icon-align-before-content .featured-content .featured-desc p {
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 /* second-footer */
@@ -2901,7 +2851,7 @@ nav.main-menu ul {
 
 .widget ul#menu-footer-quick-links li a i {
   padding-right: 10px;
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .widget ul#menu-footer-quick-links li {
@@ -2930,7 +2880,7 @@ nav.main-menu ul {
 }
 
 .widget-latest-tweets {
-  background-color: #092553;
+  background-color: var(--green-color);
   padding: 30px 30px 35px 30px;
 }
 
@@ -2964,7 +2914,7 @@ nav.main-menu ul {
 
 .widget-latest-tweets .widgte-text ul.ttm-timelist-block li .sundaylist {
   float: right;
-  color: var(--skin-color);
+  color: var(--grey-color);
 }
 
 /** ttm-recent-post-list **/
@@ -3012,7 +2962,7 @@ nav.main-menu ul {
 .widget ul.ttm-recent-post-list>li .post-date i {
   margin-right: 5px;
   font-size: 11px;
-  color: var(--skin-color) !important;
+  color: var(--green-color) !important;
 }
 
 /** widget_contact_wrapper **/
@@ -3041,148 +2991,6 @@ ul.widget_contact_wrapper li i {
   font-weight: 400;
 }
 
-.newsletter_widget {
-  padding: 0 !important;
-}
-
-.newsletter_widget .newsletter-form {
-  position: relative;
-}
-
-.newsletter_widget .newsletter-form input {
-  background-color: var(--white-color);
-  border: 1px solid rgba(255, 255, 255, 1) !important;
-  font-size: 13px;
-  width: 100%;
-  height: 54px;
-  outline: none;
-  border-radius: 0;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  padding-right: 145px;
-}
-
-.newsletter_widget .newsletter-form button[type="submit"] {
-  position: absolute;
-  top: 0;
-  height: 54px;
-  border: 0;
-  z-index: 1;
-  padding: 0 25px;
-  right: 0;
-  font-weight: 700;
-  background-color: var(--dark-grey-color);
-  color: var(--skin-color);
-  font-size: 15px;
-  border-radius: 0;
-  display: inline-block;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.newsletter_widget .newsletter-form button[type="submit"] i {
-  color: var(--skin-color);
-}
-
-.bottom-footer-text:before {
-  background-image: url(../images/fuel-truck.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: contain;
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  right: 0;
-  top: -68px;
-  animation: running-anim 20s linear infinite;
-  content: '';
-  z-index: 9;
-}
-
-.bottom-footer-text:after {
-  background-image: url(../images/crane-truck.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: contain;
-  position: absolute;
-  width: 85px;
-  height: 85px;
-  right: 70%;
-  top: -80px;
-  animation: running-anim-left 35s linear infinite;
-  content: '';
-  z-index: 9;
-}
-
-@-moz-keyframes running-anim {
-  0% {
-    right: -30%
-  }
-
-  100% {
-    right: 100%
-  }
-
-}
-
-@-webkit-keyframes running-anim {
-  0% {
-    right: -30%
-  }
-
-  100% {
-    right: 100%
-  }
-
-}
-
-@keyframes running-anim {
-  0% {
-    right: -30%
-  }
-
-  100% {
-    right: 100%
-  }
-
-}
-
-@-moz-keyframes running-anim-left {
-  0% {
-    left: -30%
-  }
-
-  100% {
-    left: 100%
-  }
-
-}
-
-@-webkit-keyframes running-anim-left {
-  0% {
-    left: -30%
-  }
-
-  100% {
-    left: 100%
-  }
-
-}
-
-@keyframes running-anim-left {
-  0% {
-    left: -30%
-  }
-
-  100% {
-    left: 100%
-  }
-
-}
 
 /** copyright **/
 .copyright {
@@ -3191,6 +2999,7 @@ ul.widget_contact_wrapper li i {
   padding-bottom: 15px;
   font-size: 14px;
   border-top: 1px solid rgba(255, 255, 255, .03);
+  background-color: var(--green-color);
 }
 
 .copyright, .copyright .cpy-text {
@@ -3234,7 +3043,7 @@ GoTop BUtton
 ------------------------*/
 #totop {
   font-weight: 900;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
   display: none;
   position: fixed;
   right: 34px;
@@ -3348,7 +3157,7 @@ Page-Title-Row
 
 .breadcrumb-wrapper {
   z-index: 1;
-  background-color: var(--dark-grey-color);
+  background-color: var(--blue-color);
   padding: 12px 30px;
   line-height: 20px;
   margin: 0 auto;
@@ -3452,7 +3261,7 @@ Inner-Pages
   font-size: 16px;
   line-height: 26px;
   float: left;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 .ttm-team-member-content .ttm-team-deatils-box .ttm-team-details-list .ttm-team-list-value {
@@ -3480,7 +3289,7 @@ Inner-Pages
 }
 
 .ttm-team-member-content .ttm-team-deatils-box .ttm-social-links-wrapper ul li a:hover {
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   color: var(--white-color);
 }
 
@@ -3532,8 +3341,8 @@ article.ttm-blog-single .ttm-blog-single-content {
 .ttm-blog-classic .ttm-box-post-date, .ttm-blog-single .ttm-box-post-date {
   z-index: 1;
   text-align: center;
-  background-color: var(--skin-color);
-  color: var(--dark-grey-color);
+  background-color: var(--green-color);
+  color: var(--blue-color);
   position: relative;
   display: inline-block;
   padding: 4px 20px;
@@ -3608,7 +3417,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 }
 
 .ttm-blog-classic .ttm-blogbox-footer a i {
-  color: var(--skin-color);
+  color: var(--green-color);
 }
 
 .ttm-blog-classic .ttm-post-featured img {
@@ -3662,7 +3471,7 @@ article.ttm-blog-single .ttm-blog-single-content {
   font-family: var(--title-fonts);
   font-weight: 700;
   position: relative;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 .ttm-blog-single ol li:before {
@@ -3670,7 +3479,7 @@ article.ttm-blog-single .ttm-blog-single-content {
   position: absolute;
   height: 100%;
   width: 2px;
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   top: 0;
   left: 15px;
 }
@@ -3695,7 +3504,7 @@ article.ttm-blog-single .ttm-blog-single-content {
   font-size: 16px;
   font-weight: 600;
   padding-right: 7px;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 .ttm-blog-single .ttm_tag_lists .ttm-tags-links-title i {
@@ -3714,7 +3523,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 }
 
 .ttm-blog-single .social-media-block .ttm-tags-links a:hover {
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   color: var(--white-color);
 }
 
@@ -3738,7 +3547,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 }
 
 .ttm-blog-single .ttm-social-share-wrapper ul li a:hover {
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   color: var(--white-color);
 }
 
@@ -3785,8 +3594,8 @@ article.ttm-blog-single .ttm-blog-single-content {
 }
 
 .comment-form button.submit:hover {
-  background-color: var(--skin-color);
-  border-color: var(--skin-color);
+  background-color: var(--green-color);
+  border-color: var(--green-color);
 }
 
 /*------------------------------------------------------------------------------*/
@@ -3841,7 +3650,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 .ttm-pf-single-detail-box ul li > span:first-child {
   margin-right: 5px;
   font-size: 15px;
-  color: var(--dark-grey-color);
+  color: var(--blue-color);
 }
 
 .ttm-pf-single-content-area h2, .ttm-pf-single-related-wrapper h2 {
@@ -3867,7 +3676,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 }
 
 .ttm-pf-single-content-wrapper ul.social-icons li a:hover {
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   color: var(--white-color);
 }
 
@@ -3903,7 +3712,7 @@ article.ttm-blog-single .ttm-blog-single-content {
 }
 
 .ttm-pf-single-content-area a:hover.ttm-btn.ttm-btn-style-border {
-  background-color: var(--skin-color);
+  background-color: var(--green-color);
   color: var(--white-color);
 }
 
