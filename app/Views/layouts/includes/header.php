@@ -92,54 +92,58 @@
                                                     <a href="#" class="mega-menu-link">Home</a>
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">About Us</a>
-                                                </li>
-                                                <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Services</a>
+                                                    <a href="#" class="mega-menu-link text-capitalize">About Us</a>
                                                     <ul class="mega-submenu">
-                                                        <li><a href="general-builder.html">General Builder</a></li>
-                                                        <li><a href="house-extensions.html">House Extensions</a></li>
-                                                        <li><a href="electrical-services.html">Electrical Services</a>
+                                                        <li><a href="#" class="text-capitalize">CEO Welcome Message</a></li>
+                                                        <li><a href="#" class="text-capitalize">Brief History</a></li>
+                                                        <li><a href="#" class="text-capitalize">Vision & Mission </a>
                                                         </li>
-                                                        <li><a href="civil-structure.html">Civil Structure</a></li>
-                                                        <li><a href="multistory-build.html">Multistory Build</a></li>
-                                                        <li><a href="disaster-response.html">Disaster Response</a></li>
+                                                        <li><a href="#" class="text-capitalize">Board of Directors</a></li>
+                                                        <li><a href="#" class="text-capitalize">Corporate governance</a>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Projects</a>
+                                                    <a href="#" class="mega-menu-link" class="text-capitalize">Membership</a>
                                                     <ul class="mega-submenu">
-                                                        <li><a href="project-style-01.html">Project One</a></li>
-                                                        <li><a href="project-style-02.html">Project Two</a></li>
+                                                        <li><a href="#" class="text-capitalize">Eligibility</a></li>
+                                                        <li><a href="#" class="text-capitalize">Membership Benefits</a></li>
                                                         <li class="mega-menu-item">
-                                                            <a href="#" class="mega-menu-link">Project Single</a>
+                                                            <a href="#" class="mega-menu-link text-capitalize">Types of memberships</a>
                                                             <ul class="mega-submenu">
-                                                                <li><a href="benoit-architecture.html">Single Style
-                                                                        One</a></li>
-                                                                <li><a href="contemporary-cilla.html">Single Style
-                                                                        Two</a></li>
-                                                                <li><a href="house-of-cards.html">Single Style Three</a>
+                                                                <li><a href="#" class="text-capitalize">Investor’s membership</a></li>
+                                                                <li><a href="#" class="text-capitalize">Shareholders membership </a></li>
+                                                                <li><a href="#" class="text-capitalize">Community membership</a>
+                                                                </li>
+                                                                <li><a href="#" class="text-capitalize">Farmer’s membership</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Blog</a>
+                                                    <a href="#" class="mega-menu-link">Products and Services</a>
                                                     <ul class="mega-submenu">
-                                                        <li><a href="blog.html">Blog Classic</a></li>
-                                                        <li><a href="blog-grid.html">Blog Grid View</a></li>
+                                                        <li><a href="blog.html">Products</a></li>                                                        
                                                         <li class="mega-menu-item"><a href="#"
-                                                                class="mega-menu-link">Blog Single </a>
+                                                                class="mega-menu-link">Services </a>
                                                             <ul class="mega-submenu">
-                                                                <li><a href="blog-left-sidebar.html">Blog Left
-                                                                        Sidebar</a></li>
-                                                                <li><a href="blog-right-sidebar.html">Blog Right
-                                                                        Sidebar</a></li>
-                                                                <li><a href="blog-without-sidebar.html">Blog Without
-                                                                        Sidebar</a></li>
+                                                                <li><a href="#" class="text-capitalize">Contract farming </a></li>
+                                                                <li><a href="#" class="text-capitalize">Agriculture loan through SOILA SACCOS</a></li>
+                                                                <li><a href="#" class="text-capitalize">	Digital agriculture service</a></li>
+                                                                <li><a href="#" class="text-capitalize">Food processing</a></li>
+                                                                <li><a href="#" class="text-capitalize">Crops insurances </a></li>
                                                             </ul>
                                                         </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="mega-menu-item">
+                                                    <a href="#" class="mega-menu-link">News and Resources</a>
+                                                    <ul class="mega-submenu">
+                                                        <li><a href="#">Press release</a></li>
+                                                        <li><a href="#">Video</a></li>
+                                                        <li><a href="#">Social medias</a></li>
+                                                        <li><a href="#">Publication</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="mega-menu-item">
@@ -147,29 +151,6 @@
                                                 </li>
                                             </ul>
                                         </nav><!-- menu end -->
-                                        <div
-                                            class="header_extra d-flex flex-row align-items-center justify-content-end">
-                                            <div class="header_search">
-                                                <a href="#" class="btn-default search_btn" rel="noopener"
-                                                    aria-label="searchbox"><i class="ti ti-search"></i></a>
-                                                <div class="header_search_content">
-                                                    <form id="searchbox" method="get" action="#">
-                                                        <input class="search_query" type="text" id="search_query_top"
-                                                            name="s" placeholder="Type Word Then Enter.." value="">
-                                                        <button type="submit" class="btn close-search"
-                                                            aria-label="searchbox-align"><i
-                                                                class="fa fa-search"></i></button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                            <div class="padding_left15">
-                                                <div class="header_btn">
-                                                    <a class="ttm-btn ttm-btn-size-md ttm-text-darkgrey btn-inline ttm-icon-btn-right"
-                                                        href="contact-us.html">Get A Quote
-                                                        <i class="fa fa-long-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div><!-- site-navigation end-->
                             </div>
