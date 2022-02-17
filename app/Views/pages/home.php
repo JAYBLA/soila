@@ -129,69 +129,32 @@
                 <div class="container">
                     <div class="row ">
                         <div class="col-lg-12">
-                            <div class="row mt_160 res-991-margin_top_0 g-0">
-                                <div class="col-lg-6">
-                                    <div
-                                        class="ttm-bgcolor-darkgrey padding_top40 padding_left50 padding_right50 padding_bottom60 res-320-padding_top30 res-320-padding_bottom30 res-320-padding_lr15 margin_left30 margin_right30 position-relative column-title">
-                                        <!--col-title -->
-                                        <div class="col-title section-title">
-                                            <h2 class="ttm-textcolor-whitecolor"> In Our Work We Have Pride, Quality Is
-                                                What We Provide.<span>We Build</span> Tomorrow</h2>
-                                            <p>BuildTab is one of the largest construction organization of nation and
-                                                ranked among the world's 15 top contractors. Address different
-                                                segments.&nbsp;<a class="ttm-textcolor-skincolor" href="#">Read More</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-12">
-                                            <div class="featured-icon-box icon-align-top-content style1">
-                                                <div class="featured-icon">
-                                                    <div
-                                                        class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                                        <i class="flaticon flaticon-renovation"></i>
-                                                    </div>
+                            <div class="row mt_160 res-991-margin_top_0 g-3">
+
+                                    <div class="col-sm-6">
+                                        <div class="card h-100 featured-icon-box icon-align-top-content style1">
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h3>Our Vision</h3>
                                                 </div>
-                                                <div class="featured-content">
-                                                    <div class="featured-title">
-                                                        <h3>Building Renovation Maintenance</h3>
-                                                    </div>
-                                                    <div class="featured-desc">
-                                                        <p>We've team of skilled people with different maintenance
-                                                            experts specialties</p>
-                                                    </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor"
-                                                        href="general-builder.html">Read More<i
-                                                            class="fa fa-long-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-6 col-12">
-                                            <div class="featured-icon-box icon-align-top-content style1">
-                                                <div class="featured-icon">
-                                                    <div
-                                                        class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-size-md">
-                                                        <i class="flaticon flaticon-construction-2"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="featured-content">
-                                                    <div class="featured-title">
-                                                        <h3>House Construction Remodeling</h3>
-                                                    </div>
-                                                    <div class="featured-desc">
-                                                        <p>The variety of tasks that help create safe and comfortable
-                                                            living environment</p>
-                                                    </div>
-                                                    <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-textcolor-darkgreycolor"
-                                                        href="house-extensions.html">Read More<i
-                                                            class="fa fa-long-arrow-right"></i></a>
+                                                <div class="featured-desc">
+                                                    <p>To be the frontline of agribusiness sector in Africa.</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    <div class="col-sm-6">
+                                        <div class="card h-100 featured-icon-box icon-align-top-content style1">
+                                            <div class="featured-content">
+                                                <div class="featured-title">
+                                                    <h3>Our Mission</h3>
+                                                </div>
+                                                <div class="featured-desc">
+                                                    <p>To be a prominent and preferred agribusiness investment avenue for all stakeholders </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -248,9 +211,9 @@
                                 <div class="margin_top20">
                                     <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-dark margin_right20 margin_top15"
                                         href="about-us.html">Learn More <i class="fa fa-long-arrow-right"></i></a>
-                                    <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor  margin_top15"
+                                    <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor text-light  margin_top15"
                                         href="services-1.html">Services
-                                        <i class="fa fa-long-arrow-right"></i></a>
+                                        <i class="fa fa-long-arrow-right text-light"></i></a>
                                 </div>
                             </div>
                         </div>
