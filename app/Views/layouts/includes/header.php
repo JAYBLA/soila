@@ -18,7 +18,7 @@
                                         <div class="top_bar_icon"><i class="flaticon flaticon-envelope text-light"></i>
                                         </div>
                                         <div class="top_bar_content"> <a
-                                                href="mailto:info@example.com">info@soila.co.tz</a></div>
+                                                href="mailto:info@soila.co.tz">info@soila.co.tz</a></div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -89,33 +89,33 @@
                                         <nav class="main-menu" id="site-desktop-menu">
                                             <ul class="menu">
                                                 <li class="mega-menu-item">
-                                                    <a href="#" class="mega-menu-link">Home</a>
+                                                    <a href="/" class="mega-menu-link">Home</a>
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link text-capitalize">About Us</a>
                                                     <ul class="mega-submenu">
-                                                        <li><a href="#" class="text-capitalize">CEO Welcome Message</a></li>
-                                                        <li><a href="#" class="text-capitalize">Brief History</a></li>
-                                                        <li><a href="#" class="text-capitalize">Vision & Mission </a>
+                                                        <li><a href="<?= base_url() ?>/welcome_message" class="text-capitalize">CEO Welcome Message</a></li>
+                                                        <li><a href="<?= base_url() ?>/history" class="text-capitalize">Brief History</a></li>
+                                                        <li><a href="<?= base_url() ?>/mission-vision" class="text-capitalize">Vision & Mission </a>
                                                         </li>
-                                                        <li><a href="#" class="text-capitalize">Board of Directors</a></li>
-                                                        <li><a href="#" class="text-capitalize">Corporate governance</a>
+                                                        <li><a href="<?= base_url() ?>/board-of-directors" class="text-capitalize">Board of Directors</a></li>
+                                                        <li><a href="<?= base_url() ?>/history" class="text-capitalize">Corporate governance</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="mega-menu-item">
                                                     <a href="#" class="mega-menu-link" class="text-capitalize">Membership</a>
                                                     <ul class="mega-submenu">
-                                                        <li><a href="#" class="text-capitalize">Eligibility</a></li>
-                                                        <li><a href="#" class="text-capitalize">Membership Benefits</a></li>
+                                                        <li><a href="<?= base_url() ?>/eligibility" class="text-capitalize">Eligibility</a></li>
+                                                        <li><a href="<?= base_url() ?>/membership-benefits" class="text-capitalize">Membership Benefits</a></li>
                                                         <li class="mega-menu-item">
                                                             <a href="#" class="mega-menu-link text-capitalize">Types of memberships</a>
                                                             <ul class="mega-submenu">
-                                                                <li><a href="#" class="text-capitalize">Investor’s membership</a></li>
-                                                                <li><a href="#" class="text-capitalize">Shareholders membership </a></li>
-                                                                <li><a href="#" class="text-capitalize">Community membership</a>
+                                                                <li><a href="<?= base_url() ?>/investor’s-membership" class="text-capitalize">Investor’s membership</a></li>
+                                                                <li><a href="<?= base_url() ?>/shareholders-membership" class="text-capitalize">Shareholders membership </a></li>
+                                                                <li><a href="<?= base_url() ?>/community-membership" class="text-capitalize">Community membership</a>
                                                                 </li>
-                                                                <li><a href="#" class="text-capitalize">Farmer’s membership</a>
+                                                                <li><a href="<?= base_url() ?>/history" class="text-capitalize">Farmer’s membership</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
@@ -147,7 +147,7 @@
                                                     </ul>
                                                 </li>
                                                 <li class="mega-menu-item">
-                                                    <a href="contact-us.html">Contact us</a>
+                                                    <a href="<?= base_url() ?>/contact">Contact us</a>
                                                 </li>
                                             </ul>
                                         </nav><!-- menu end -->

@@ -20,6 +20,8 @@
   --dark-green-color: #026d34;
   --dark-color: #000000;
   --body-fonts-color: #8592a6;
+  --grey-color: #c2cfe2;
+  --custom-grey-color: #728094;
   --grey-color: #f1f4f9;
   --white-color: #fff;
   --body-fonts: 'Poppins', Tahoma, Geneva, sans-serif;
@@ -28,4 +30,25 @@
 
 .text-orange{
   color: var(--orange-color);
+}
+
+.bg-custom-grey{
+  background-color: var(--custom-grey-color);
+}
+
+.wrap-form.contact_form span.text-input input{
+  background-color: var(--grey-color);
+  border-color: var(--custom-grey-color);
+  border-radius: 10px;
+}
+
+.wrap-form.contact_form span.text-input textarea{
+  background-color: var(--grey-color);
+  border-color: var(--custom-grey-color);
+  border-radius: 10px;
+}
+
+.contact-form-bg{  
+  border: 1px solid var(--custom-grey-color);
+  border-radius: 10px;
 }
