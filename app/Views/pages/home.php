@@ -32,7 +32,7 @@
                             data-text="w:normal;s:70,70,55,40;l:90,90,56,50;fw:800;" data-frame_0="x:-50,-50,-31,-19;"
                             data-frame_1="st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
                             style="z-index:10;font-family:'inter';">With<span
-                                class="ttm-textcolor-skincolor slide-text"> SOILA PLC</span>
+                                class="text-orange slide-text"> SOILA PLC</span>
                         </rs-layer>
                         <!--
 

@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/revolution/css/rs6.css" />
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/css/shortcodes.css" />
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/css/megamenu.css" />
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/css/responsive.css" />
     <link rel="stylesheet" href="<?= base_url() ?>/css/animate.css">

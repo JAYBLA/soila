@@ -4,7 +4,7 @@
                 <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+                        <div class="col-xs-12 col-sm-6 col-md-6 widget-area">
                             <div class="widget-latest-tweets res-991-margin_top0 clearfix">
                                 <div class="widgte-text">
                                     <div class="widgte-title">
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
+                        <div class="col-xs-12 col-sm-6 col-md-6 widget-area">
                             <div class="widget widget_nav_menu clearfix">
                                 <h3 class="widget-title">Our Services</h3>
                                 <ul id="menu-footer-quick-links">
@@ -53,31 +53,6 @@
                                     <li><a href="#"><i class="fa fa-arrow-right"></i>Meet Our Team</a></li>
                                     <li><a href="#"><i class="fa fa-arrow-right"></i>Scientific</a></li>
                                     <li><a href="#"><i class="fa fa-arrow-right"></i>Gemological</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
-                            <div class="widget widget-recent-post clearfix">
-                                <h3 class="widget-title">Recent Posts</h3>
-                                <ul class="widget-post ttm-recent-post-list">
-                                    <li>
-                                        <a href="blog-right-sidebar.html"><img class="img-fluid"
-                                                src="images/blog/b_thumbb-01.jpg" alt="post-img"></a>
-                                        <div class="post-detail">
-                                            <span class="post-date"><i class="fa fa-calendar"></i>May 21, 2021</span>
-                                            <a href="blog-right-sidebar.html">Improve Workflow With Agile <br>
-                                                Construction</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="blog-right-sidebar.html"><img class="img-fluid"
-                                                src="images/blog/b_thumbb-02.jpg" alt="post-img"></a>
-                                        <div class="post-detail">
-                                            <span class="post-date"><i class="fa fa-calendar"></i>Apri 28, 2021</span>
-                                            <a href="blog-right-sidebar.html">What Are The Benefits Of LEED <br>
-                                                Certification?</a>
-                                        </div>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
