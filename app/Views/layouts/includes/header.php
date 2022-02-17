@@ -115,7 +115,7 @@
                                                                 <li><a href="<?= base_url() ?>/shareholders-membership" class="text-capitalize">Shareholders membership </a></li>
                                                                 <li><a href="<?= base_url() ?>/community-membership" class="text-capitalize">Community membership</a>
                                                                 </li>
-                                                                <li><a href="<?= base_url() ?>/history" class="text-capitalize">Farmer’s membership</a>
+                                                                <li><a href="<?= base_url() ?>/farmer’s-membership" class="text-capitalize">Farmer’s membership</a>
                                                                 </li>
                                                             </ul>
                                                         </li>

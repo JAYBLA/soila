@@ -118,7 +118,7 @@ nav.main-menu ul.menu li ul.mega-submenu li a:before {
 }
 
 nav.main-menu ul.menu li ul.mega-submenu li.active > a {
-    color: var(--dark-grey-color);
+    color: var(--custom-grey-color);
 }
 
 nav.main-menu ul.menu li ul.mega-submenu li a:hover:before, 
@@ -250,7 +250,7 @@ ul.menu-col li a:hover, ul.menu-col li a:focus {
         transition-duration: .15s;
         transition-property: transform;
         border-radius: 4px;
-        background-color: var(--dark-grey-color);
+        background-color: var(--custom-grey-color);
     }
 
     .menubar--squeeze .menubar-inner {
