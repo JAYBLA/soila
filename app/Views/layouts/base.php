@@ -64,8 +64,9 @@
     <script src="<?= base_url() ?>/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.3.4/js/jquery.mmenu.min.all.min.js'></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    <script>
+        <script>
             $(document).ready(function(){
                 $("#site-desktop-menu")
                 .clone()
@@ -95,6 +96,19 @@
 				});
 			});
 		</script>
+        
+        <script>
+            $(document).ready(function() {
+                <?php if(session()->getFlashdata('status')){?>
+                swal({
+                    title: "<?= session()->getFlashdata('status') ?>",
+                    text: "<?= session()->getFlashdata('status_txt') ?>",
+                    icon: "<?= session()->getFlashdata('status_icon') ?>",
+                    button: "OK!",
+                });
+                <?php } ?>
+            });
+        </script>
 
     <?= $this->rendersection('javascript') ?>
     <!-- Javascript end-->

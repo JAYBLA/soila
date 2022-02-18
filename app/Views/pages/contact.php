@@ -37,8 +37,8 @@
                     <!--section-title-->
                     <div class="section-title title-style-center_text margin_bottom30">
                         <div class="title-header">
-                            <h3>GET IN TOUCH</h3>
-                            <h2 class="title">Have Any Question?, Drop Us a Line!</h2>
+                            <h3 class="text-orange">GET IN TOUCH</h3>
+                            <h2 class="title text-green">Have Any Question?, Drop Us a Line!</h2>
                         </div>
                     </div>
                     <!--section-title-end-->
@@ -47,37 +47,31 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="ttm-bgcolor-white contact-form-bg p-40 res-991-margin_right0 ">
-                        <form id="contact_form" class="wrap-form contact_form padding_top15" method="post" action="#">
+                        <form  class="wrap-form contact_form padding_top15" method="post" action="#">
                             <div class="row ttm-boxes-spacing-30px">
-                                <div class="col-sm-6 ttm-box-col-wrapper">
+                                <div class="col-sm-12 ttm-box-col-wrapper">
                                     <label>
-                                        <span class="text-input margin_bottom0"><input name="your-name" type="text"
+                                        <span class="text-input margin_bottom0"><input name="full_name" type="text"
                                                 value="" placeholder="Your Name*" required="required"></span>
                                     </label>
                                 </div>
                                 <div class="col-sm-6 ttm-box-col-wrapper">
                                     <label>
-                                        <span class="text-input margin_bottom0"><input name="Phone" type="text" value=""
+                                        <span class="text-input margin_bottom0"><input name="phone" type="text" value=""
                                                 placeholder="Your Phone*" required="required"></span>
                                     </label>
                                 </div>
                                 <div class="col-sm-6 ttm-box-col-wrapper">
                                     <label>
                                         <span class="text-input margin_bottom0">
-                                            <input name="Email" type="text" value=""
+                                            <input name="email" type="text" value=""
                                                 placeholder="Email Address*" required="required">
                                             </span>
                                     </label>
                                 </div>
-                                <div class="col-sm-6 ttm-box-col-wrapper">
-                                    <label>
-                                        <span class="text-input margin_bottom0"><input name="Subject" type="text"
-                                                value="" placeholder="Subject*" required="required"></span>
-                                    </label>
-                                </div>
                                 <div class="col-sm-12 ttm-box-col-wrapper">
                                     <label>
-                                        <span class="text-input margin_bottom0"><textarea name="your-message" cols="40"
+                                        <span class="text-input margin_bottom0"><textarea name="message" cols="40"
                                                 rows="6" placeholder="Your Message"
                                                 aria-required="true"></textarea></span>
                                     </label>

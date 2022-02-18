@@ -238,7 +238,7 @@
                                     <div class="featured-desc">
                                         <p>We have SOILA Sembe on maize flour product</p>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-12 mb-4">
@@ -260,7 +260,7 @@
                                         <h3>Oilseed Product</h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>The Brand is SOILA  Cooking Oil</p>
+                                        <p>The Brand is SOILA Cooking Oil</p>
                                     </div>
                                 </div>
                             </div>
@@ -278,17 +278,18 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-12 mb-4">
-                        <a href="<?= base_url() ?>/contract-farming" class="text-capitalize">
-                            <div class="featured-icon-box icon-align-top-content style2 product-services card h-100">
-                                <div class="featured-content">
-                                    <div class="featured-title">
-                                        <h3>Contract farming </h3>
-                                    </div>
-                                    <div class="featured-desc">
-                                        <p></p>
+                            <a href="<?= base_url() ?>/contract-farming" class="text-capitalize">
+                                <div
+                                    class="featured-icon-box icon-align-top-content style2 product-services card h-100">
+                                    <div class="featured-content">
+                                        <div class="featured-title">
+                                            <h3>Contract farming </h3>
+                                        </div>
+                                        <div class="featured-desc">
+                                            <p></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
                             </a>
                         </div>
                         <div class="col-md-4 col-12 mb-4">
@@ -304,22 +305,25 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-12 mb-4">
-                            <div class="featured-icon-box icon-align-top-content style2 product-services card h-100">
-                                <div class="featured-content">
-                                    <div class="featured-title">
-                                        <h3>Agriculture loan Service through SOILA SACCOS</h3>
-                                    </div>
-                                    <div class="featured-desc">
-                                        <p></p>
+                            <a href="<?= base_url() ?>/agriculture-loan" class="text-capitalize">
+                                <div
+                                    class="featured-icon-box icon-align-top-content style2 product-services card h-100">
+                                    <div class="featured-content">
+                                        <div class="featured-title">
+                                            <h3>Agriculture loan Service through SOILA SACCOS</h3>
+                                        </div>
+                                        <div class="featured-desc">
+                                            <p></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-md-4 col-12 mb-4">
                             <div class="featured-icon-box icon-align-top-content style2 product-services card h-100">
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3>Digital  Agriculture Service</h3>
+                                        <h3>Digital Agriculture Service</h3>
                                     </div>
                                     <div class="featured-desc">
                                         <p></p>
@@ -342,16 +346,19 @@
                         <div class="col-md-4 col-12 mb-3">
                         </div>
                         <div class="col-md-4 col-12 ">
-                            <div class="featured-icon-box icon-align-top-content style2 product-services card h-100">
-                                <div class="featured-content">
-                                    <div class="featured-title">
-                                        <h3>Crops Insurances Service</h3>
-                                    </div>
-                                    <div class="featured-desc">
-                                        <p></p>
+                            <a href="<?= base_url() ?>/crops-insurances" class="text-capitalize">
+                                <div
+                                    class="featured-icon-box icon-align-top-content style2 product-services card h-100">
+                                    <div class="featured-content">
+                                        <div class="featured-title">
+                                            <h3>Crops Insurances Service</h3>
+                                        </div>
+                                        <div class="featured-desc">
+                                            <p></p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-md-4 col-12">
                         </div>
