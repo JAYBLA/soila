@@ -87,7 +87,7 @@
                                 <div class="col-sm-12">
                                     <button
                                         class="submit ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-fill ttm-btn-color-skincolor w-100 text-light rounded-3"
-                                        type="submit">Send Now!</button>
+                                        type="submit">Send Message</button>
                                 </div>
                             </div>
                         </form>
