@@ -1,0 +1,22 @@
+CRITICAL - 2022-02-10 12:33:00 --> Invalid file: pages/error.php
+#0 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/error.php')
+#1 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/error', Array, true)
+#2 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\app\Config\Routes.php(39): view('pages/error')
+#3 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\CodeIgniter.php(842): CodeIgniter\Router\RouteCollection->Config\{closure}('')
+#4 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\CodeIgniter.php(334): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB SERVICES...')
+#7 {main}
+CRITICAL - 2022-02-10 12:58:17 --> Undefined variable: title
+#0 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\app\Views\layouts\base.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\WEB SERVICES...', 14, Array)
+#1 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\WEB SERVICES...')
+#2 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layouts/base', Array, true)
+#4 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#5 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\app\Controllers\Pages.php(9): view('pages/home')
+#6 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Pages->index()
+#7 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\WEB SERVICES\WORKPLACE\CodeIgniter\LongitudeTechnologies\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB SERVICES...')
+#11 {main}
