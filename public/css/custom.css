@@ -29,8 +29,13 @@
 }
 
 .text-orange{
-  color: var(--orange-color);
+  color: var(--orange-color) !important;
 }
+
+.text-green{
+  color: var(--green-color) !important;
+}
+
 
 .bg-custom-grey{
   background-color: var(--custom-grey-color);
@@ -51,4 +56,81 @@
 .contact-form-bg{  
   border: 1px solid var(--custom-grey-color);
   border-radius: 10px;
+}
+
+.ttm-bg-error{
+  background-color: var(--dark-green-color) !important;
+}
+
+.bg-green{
+  background-color: var(--green-color)
+}
+
+
+
+/*------------------------------------*/
+/*------ Basic Underline Styles ------*/
+/*------------------------------------*/
+
+.normal-underline,
+.custom-underline {
+  position: relative;
+  display: inline-block;
+  /* font-size: 24px; */
+  font-weight: 400;
+  text-align: center;
+}
+
+.normal-underline,
+.normal-underline:hover {
+  color: #444;
+  text-decoration: underline;
+}
+
+.custom-underline,
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+  color: var(--orange-color);
+  text-decoration: none;
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+}
+
+
+/*--- Green Box (box-c) ---*/
+.box-c .custom-underline::after {
+  top: 99%;
+  height: 2px !important;
+  width: 40%;
+  left: 30%;
+  background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.4s ease-out all .1s;
+}
+
+.box-c:hover .custom-underline::after {
+  width: 90%;
+  left: 5%;
+    transition: 0.5s ease all;
+}
+
+.membership-home-links:hover, footer a:hover{
+color: var(--orange-color) !important;
+}
+
+.product-services h3, .product-services p{
+  color: #ffffff !important;
+}
+
+.bafrocodes-copyright:hover{
+  color: var(--orange-color) !important;
+}
+
+.card {
+
+  border: none !important;
+
 }

@@ -9,13 +9,13 @@
                                 <div class="col-lg-6">
                                     <div class="top_bar_contact_item">
                                         <div class="top_bar_icon"><i
-                                                class="flaticon flaticon-placeholder text-light"></i></div>
+                                                class="fa fa-map-marker text-light"></i></div>
                                         <div class="top_bar_content">CCM Mkoa Building-Morogoro,
                                             Block B, Second Floor
                                         </div>
                                     </div>
                                     <div class="top_bar_contact_item">
-                                        <div class="top_bar_icon"><i class="flaticon flaticon-envelope text-light"></i>
+                                        <div class="top_bar_icon"><i class="fa fa-envelope text-light"></i>
                                         </div>
                                         <div class="top_bar_content"> <a
                                                 href="mailto:info@soila.co.tz">info@soila.co.tz</a></div>
@@ -99,7 +99,7 @@
                                                         <li><a href="<?= base_url() ?>/mission-vision" class="text-capitalize">Vision & Mission </a>
                                                         </li>
                                                         <li><a href="<?= base_url() ?>/board-of-directors" class="text-capitalize">Board of Directors</a></li>
-                                                        <li><a href="<?= base_url() ?>/history" class="text-capitalize">Corporate governance</a>
+                                                        <li><a href="#" class="text-capitalize">Corporate governance</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -129,6 +129,7 @@
                                                                 class="mega-menu-link">Services </a>
                                                             <ul class="mega-submenu">
                                                                 <li><a href="<?= base_url() ?>/contract-farming" class="text-capitalize">Contract farming </a></li>
+                                                                <li><a href="#" class="text-capitalize">Marketing services </a></li>
                                                                 <li><a href="<?= base_url() ?>/agriculture-loan" class="text-capitalize">Agriculture loan through SOILA SACCOS</a></li>
                                                                 <li><a href="#" class="text-capitalize">	Digital agriculture service</a></li>
                                                                 <li><a href="#" class="text-capitalize">Food processing</a></li>

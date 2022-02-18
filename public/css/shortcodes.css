@@ -40,6 +40,19 @@
           20. Sidebar
 
 **/
+/** Variables **/
+:root {
+    --orange-color: #F6921E;
+    --green-color: #009345;
+    --dark-green-color: #026d34;
+    --dark-color: #000000;
+    --body-fonts-color: #8592a6;
+    --grey-color: #f1f4f9;
+    --white-color: #fff;
+    --body-fonts: 'Poppins', Tahoma, Geneva, sans-serif;
+    --title-fonts: 'Inter', Arial, Helvetica, sans-serif;
+  }
+
 
 /* ===============================================
     1.ttm-row
@@ -1781,7 +1794,7 @@ i.fa-play {
 
 /* style2 */
 .featured-icon-box.style2 {
-    background-color: #012052;
+    background-color: var(--green-color);
     padding: 55px 15px 52px;
     position: relative;
     text-align: center;
@@ -1809,20 +1822,20 @@ i.fa-play {
 
 .featured-icon-box.style2:before {
     content: '';
-    border-left: 3px solid;
-    border-top: 3px solid;
+    border-left: 4px solid;
+    border-top: 4px solid;
     top: 0;
     left: 0;
-    color: var(--skin-color);
+    color: var(--orange-color);
 }
 
 .featured-icon-box.style2:after {
     content: '';
-    border-right: 3px solid;
-    border-bottom: 3px solid;
+    border-right: 4px solid;
+    border-bottom: 4px solid;
     bottom: 0;
     right: 0;
-    color: var(--skin-color);
+    color: var(--orange-color);
 }
 
 .featured-icon-box.style2.active:before, .featured-icon-box.style2.active:after, .featured-icon-box.style2:hover:before, .featured-icon-box.style2:hover:after {

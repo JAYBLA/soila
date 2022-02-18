@@ -37,7 +37,10 @@ $routes->get('(:any)', 'Pages::view/$1');
 
 
 $routes->set404Override(function(){
-    return view('pages/error');
+    $data=[
+        'title' => 'Page Not Found'
+    ];
+    return view('pages/error', $data);
 });
 
 /*
