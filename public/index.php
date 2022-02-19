@@ -1,5 +1,27 @@
 <?php
 
+// $maintenance = false;
+$maintenance = true;
+## set to true to enable
+
+if ($maintenance)
+{
+    if (isset( $_SERVER['REMOTE_ADDR']) and $_SERVER['REMOTE_ADDR'] == '127.0.0.1')
+    {
+        ##do nothing
+    } else
+    {
+
+        error_reporting(E_ALL);
+        ini_set('display_errors', 1); ## to debug your maintenance view
+
+        require_once 'maintenance.php'; ## call view
+        return;
+        exit();
+
+    }
+}
+
 // Path to the front controller (this file)
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
 
