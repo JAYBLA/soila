@@ -31,7 +31,7 @@ class Contact extends Controller
             ];
             $model->save($data);
           
-            $to = "jayblagroup@gmail.com";
+            $to = "mbogomasau@gmail.com";
             $from = 'info@soila.co.tz';
             $subject = "Contact Form";
             $message = view('pages/email_template.php',$data);
