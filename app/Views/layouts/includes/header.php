@@ -144,6 +144,7 @@
                                                         <li><a href="#">Press release</a></li>
                                                         <li><a href="#">Video</a></li>
                                                         <li><a href="#">Social medias</a></li>
+                                                        <li><a href="<?= base_url() ?>/useful-documents">Useful Documents</a></li>
                                                         <li><a href="#">Publication</a></li>
                                                     </ul>
                                                 </li>

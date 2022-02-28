@@ -114,10 +114,18 @@
                             </div>
                             <div class="featured-content pt-2">
                                 <div class="featured-title ">
-                                    <h3 class="margin_bottom0">Phone</h3>
+                                    <h3 class="margin_bottom0">Phone(Call Only)</h3>
                                 </div>
                                 <div class="featured-desc">
-                                    <p><a href="tel:+255682655515">+255 (0) 682 655 515</a></p>
+                                    <p><a href="tel:+255782550109">+255782550109</a></p>
+                                </div>
+                            </div>
+                            <div class="featured-content pt-2">
+                                <div class="featured-title ">
+                                    <h3 class="margin_bottom0">Phone(WhatsApp Only)</h3>
+                                </div>
+                                <div class="featured-desc">
+                                    <p><a href="https://wa.me/%2B255733456407?text=Hello%20SOILA%20PLC">+255733456407</a></p>
                                 </div>
                             </div>
                         </div>

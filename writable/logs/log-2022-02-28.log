@@ -1,0 +1,29 @@
+CRITICAL - 2022-02-28 03:27:55 --> authGuard filter must have a matching alias defined.
+#0 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+#1 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+#2 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\public\index.php(59): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB SERVICES...')
+#5 {main}
+CRITICAL - 2022-02-28 03:29:08 --> AuthGuard filter must have a matching alias defined.
+#0 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('AuthGuard')
+#1 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('AuthGuard', 'before')
+#2 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\public\index.php(59): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB SERVICES...')
+#5 {main}
+CRITICAL - 2022-02-28 03:31:28 --> authGuard filter must have a matching alias defined.
+#0 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+#1 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+#2 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\public\index.php(59): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB SERVICES...')
+#5 {main}
+CRITICAL - 2022-02-28 03:34:54 --> authGuard filter must have a matching alias defined.
+#0 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+#1 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+#2 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\public\index.php(59): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB SERVICES\WORKPLACE\CodeIgniter\CLIENTS\soila\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB SERVICES...')
+#5 {main}
+ERROR - 2022-02-28 04:07:36 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()

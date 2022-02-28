@@ -1,12 +1,12 @@
 <?php
 
-// $maintenance = false;
-$maintenance = true;
+$maintenance = false;
+// $maintenance = true;
 ## set to true to enable
 
 if ($maintenance)
 {
-    if (isset( $_SERVER['REMOTE_ADDR']) and $_SERVER['REMOTE_ADDR'] == '127.0.0.1')
+    if (isset( $_SERVER['REMOTE_ADDR']) and $_SERVER['REMOTE_ADDR'] == '192.168.0.1')
     {
         ##do nothing
     } else

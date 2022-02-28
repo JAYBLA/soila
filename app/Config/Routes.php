@@ -31,6 +31,24 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+// User Management
+$routes->get('dashboard/signup', 'SignupController::index');
+$routes->post('dashboard/signup', 'SignupController::store');
+$routes->get('dashboard/signin', 'SigninController::index');
+$routes->post('dashboard/signin', 'SigninController::loginAuth');
+$routes->get('dashboard/logout', 'SigninController::logout');
+
+
+// Dashboard
+$routes->match(['get', 'post'], '/dashboard/post-create', 'Posts::create', ['filter' => 'authGuard']);
+$routes->get('/dashboard/posts/(:segment)', 'Posts::view/$1');
+$routes->get('/dashboard/post-delete/(:segment)', 'Posts::delete/$1');
+$routes->post('/dashboard/post-update/(:segment)', 'Posts::update/$1');
+$routes->get('/dashboard', 'Posts::index', ['filter' => 'authGuard']);
+
+
+
+
 $routes->get('/contact', 'Contact::index');
 $routes->get('/', 'Pages::index');
 $routes->get('(:any)', 'Pages::view/$1');
