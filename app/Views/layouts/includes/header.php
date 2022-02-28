@@ -76,7 +76,7 @@
                                     <div class="site-branding ">
                                         <a class="home-link" href="/" title="Buildtab" rel="home">
                                             <img id="logo-img" height="45" width="175" class="img-fluid auto_size"
-                                                src="images/logo-img.svg" alt="logo-img">
+                                                src="<?= base_url()?>/images/logo-img.svg" alt="logo-img">
                                         </a>
                                     </div><!-- site-branding end -->
                                     <div class=" d-flex flex-row ">
