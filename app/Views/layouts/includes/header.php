@@ -99,7 +99,7 @@
                                                         <li><a href="<?= base_url() ?>/mission-vision" class="text-capitalize">Vision & Mission </a>
                                                         </li>
                                                         <li><a href="<?= base_url() ?>/board-of-directors" class="text-capitalize">Board of Directors</a></li>
-                                                        <li><a href="#" class="text-capitalize">Corporate governance</a>
+                                                        <li><a href="<?= base_url() ?>/corporate-governance" class="text-capitalize">Corporate governance</a>
                                                         </li>
                                                     </ul>
                                                 </li>
