@@ -52,7 +52,7 @@
                                         <div class="top_bar_contact_item ttm-highlight-right">
                                             <div class="top_bar_icon"><i class="flaticon-phone-call"></i></div>
                                             <div class="top_bar_content"> Direct Call:
-                                                <strong><a href="tel:+255682655515">+255 (0) 682 655 515</a></strong>
+                                                <strong><a href="tel:+255782550109">+255782550109</a></strong>
                                             </div>
                                         </div>
                                     </div>
