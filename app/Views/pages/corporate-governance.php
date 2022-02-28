@@ -56,7 +56,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="<?= base_url() ?>/images/team/hamis.jpg" class="img-fluid" alt="">
+                <img src="<?= base_url() ?>/images/team/hamis.jpg" class="img-fluid" alt="hamis-image">
                 <div class="social">
                 <a href="#"><i class="fa fa-twitter text-orange"></i></a>
                   <a href="#"><i class="fa fa-facebook text-orange"></i></a>
