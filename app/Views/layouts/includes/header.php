@@ -27,23 +27,23 @@
                                             <ul class="social-icons d-flex">
                                                 <li>
                                                     <a class="ttm-social-facebook"
-                                                        href="https://www.facebook.com/themetechMount18" rel="noopener"
+                                                        href="#" rel="noopener"
                                                         aria-label="facebook"><i class=" fa fa-facebook-f"></i></a>
                                                 </li>
                                                 <li>
                                                     <a class="ttm-social-twitter"
-                                                        href="https://twitter.com/themetechmount" rel="noopener"
+                                                        href="#" rel="noopener"
                                                         aria-label="twitter"><i class="fa fa-twitter"></i></a>
                                                 </li>
                                                 <li>
                                                     <a class="ttm-social-linkedin"
-                                                        href="https://www.linkedin.com/company/themetech-mount/"
+                                                        href="#"
                                                         rel="noopener" aria-label="google"><i
                                                             class="fa fa-linkedin"></i></a>
                                                 </li>
                                                 <li>
                                                     <a class="ttm-social-pinteres"
-                                                        href="https://in.pinterest.com/themetechmount/_created/"
+                                                        href="#"
                                                         rel="noopener" aria-label="google"><i
                                                             class="fa fa-pinterest-p"></i></a>
                                                 </li>
