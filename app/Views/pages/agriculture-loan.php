@@ -11,7 +11,7 @@
             <div class="col-lg-12">
                 <div class="ttm-page-title-row-inner">
                     <div class="page-title-heading">
-                        <h2 class="title">SOILA SACCOS</h2>
+                        <h2 class="title">Agriculture Loan</h2>
                     </div>
                     <div class="breadcrumb-wrapper">
                         <span>

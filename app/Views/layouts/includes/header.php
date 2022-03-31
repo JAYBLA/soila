@@ -129,8 +129,8 @@
                                                                 class="mega-menu-link">Services </a>
                                                             <ul class="mega-submenu">
                                                                 <li><a href="<?= base_url() ?>/contract-farming" class="text-capitalize">Contract farming </a></li>
-                                                                <li><a href="#" class="text-capitalize">Marketing services </a></li>
-                                                                <li><a href="<?= base_url() ?>/agriculture-loan" class="text-capitalize">Agriculture loan through SOILA SACCOS</a></li>
+                                                                <li><a href="<?= base_url() ?>/marketing-services" class="text-capitalize">Marketing services </a></li>
+                                                                <li><a href="<?= base_url() ?>/agriculture-loan" class="text-capitalize">Agriculture loan</a></li>
                                                                 <li><a href="#" class="text-capitalize">	Digital agriculture service</a></li>
                                                                 <li><a href="#" class="text-capitalize">Food processing</a></li>
                                                                 <li><a href="<?= base_url() ?>/crops-insurances" class="text-capitalize">Crops insurances </a></li>
