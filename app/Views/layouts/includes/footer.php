@@ -53,12 +53,26 @@
                 <div class="bottom-footer-text ttm-bg copyright">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-12 d-none d-lg-block">
                                 <div class="text-center">
                                     <span class="cpy-text"> Copyright &copy; <script>
                                         document.write(new Date().getFullYear())
                                         </script> <a href="#" class=" font-weight-500">
                                             SOILA</a> || Designed by &nbsp;<a
+                                            href="https://bafrocodes.co.tz/" class="bafrocodes-copyright">BafroCodes</a></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 d-lg-none">
+                                <div class="text-center">
+                                    <span class="cpy-text"> Copyright &copy; <script>
+                                        document.write(new Date().getFullYear())
+                                        </script> <a href="#" class=" font-weight-500">
+                                            SOILA</a></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 d-lg-none">
+                                <div class="text-center">
+                                    <span class="cpy-text">Designed by &nbsp;<a
                                             href="https://bafrocodes.co.tz/" class="bafrocodes-copyright">BafroCodes</a></span>
                                 </div>
                             </div>
