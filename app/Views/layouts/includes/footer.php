@@ -72,7 +72,7 @@
                             </div>
                             <div class="col-sm-12 d-lg-none">
                                 <div class="text-center">
-                                    <span class="cpy-text">Designed by &nbsp;<a
+                                    <span>Designed by &nbsp;<a
                                             href="https://bafrocodes.co.tz/" class="bafrocodes-copyright">BafroCodes</a></span>
                                 </div>
                             </div>
