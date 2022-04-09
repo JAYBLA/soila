@@ -4322,7 +4322,6 @@ section {
 }
 
 .accordion .toggle.ttm-toggle_style_classic.style3 .toggle-title a.active {
-    background-color: var(--skin-color);
     color: var(--white-color);
 }
 
