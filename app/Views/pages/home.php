@@ -242,25 +242,25 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-12 mb-4">
-                            <div class="featured-icon-box icon-align-top-content style2 product-services card h-100">
+                            <div class="featured-icon-box icon-align-top-content style2 service-bg card h-100 rice-box-bg" >
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3>Rice Product</h3>
+                                        <h3 class="custom-bg-light py-3">Rice Product</h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>The Brand is SOILA Rice</p>
+                                        <p class="custom-bg-light">The Brand is SOILA Rice</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-12 mb-4">
-                            <div class="featured-icon-box icon-align-top-content style2 product-services card h-100">
+                            <div class="featured-icon-box icon-align-top-content style2 service-bg oil-box-bg card h-100">
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3>Oilseed Product</h3>
+                                        <h3 class="custom-bg-light py-3">Oilseed Product</h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>The Brand is SOILA Cooking Oil</p>
+                                        <p class="custom-bg-light">The Brand is SOILA Cooking Oil</p>
                                     </div>
                                 </div>
                             </div>

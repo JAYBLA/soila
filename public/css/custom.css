@@ -204,3 +204,24 @@ color: var(--orange-color) !important;
   opacity: 1;
 }
 
+.rice-box-bg{
+ background-image:url(../images/rice.jpg);
+ background-position:center;
+ background-size: contain;
+}
+.oil-box-bg{
+  background-image:url(../images/oil.jpg);
+  background-position:center;
+  background-size: contain;
+ }
+ 
+
+.service-bg h3, .service-bg p{
+  color:var(--green-color)
+}
+
+.custom-bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb),0.7 )!important;
+}
+
